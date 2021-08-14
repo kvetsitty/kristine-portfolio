@@ -1,3 +1,8 @@
+:root {
+    --primary-color: #e798c0;
+    --secondary-color: #ffffff;
+  }
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -5,20 +10,20 @@
 }
 
 body {
-    background-color: #e798c0;
+    background-color: var(--primary-color);
 }
 
 header {
     padding: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #ffffff;
-    color: #e798c0;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
 }
 
 header h1 {
     display: inline-block;
     font-size: 35px;
-    color: #e798c0;
+    color: var(--primary-color);
 }
 
 header nav {
@@ -39,7 +44,7 @@ header nav ul {
 }
 
 a {
-    color: #e798c0;
+    color: var(--primary-color);
     text-decoration: none;
 }
 
