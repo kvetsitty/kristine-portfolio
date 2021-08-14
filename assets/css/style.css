@@ -11,13 +11,16 @@
 
 body {
     background-color: var(--primary-color);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header {
     padding: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: var(--secondary-color);
     color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 header h1 {
@@ -30,8 +33,9 @@ header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 header nav ul li {
@@ -62,13 +66,17 @@ p {
     background-position: center;
 }
 
-.about-me {
+.about-me,
+.work,
+.contact-me {
     width: 75%;
     display: inline-block;
     margin: 10px auto;
 }
 
-.about-me h2 {
+.about-me h2,
+.work h2,
+.contact-me h2 {
     margin-bottom: 10px;
     text-align: center;
 }
