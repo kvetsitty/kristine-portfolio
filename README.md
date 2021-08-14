@@ -12,5 +12,8 @@ Create portfolio with no starter code for future employers to see previous work.
 ## Website 
 https://kvetsitty.github.io/kristine-portfolio/
 
+## Screenshot
+![ScreenShot](/images/screenshot.jpg)
+
 ## Contribution
 Made with ❤️ by Kristine
