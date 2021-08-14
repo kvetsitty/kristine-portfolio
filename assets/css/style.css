@@ -62,12 +62,25 @@ p {
 }
 
 .banner {
-    height: 150px;
+    height: 200px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/cherryblossoms.jpg");
     background-size: cover;
     background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 30px;
+}
+
+.banner-label {
+    color: var(--primary-color);
+    font-size: 40px;
+    padding: 20px;
+    margin: 20px 0 0 0;
+    background-color: var(--secondary-color);
 }
 
 .about-me,
@@ -200,6 +213,10 @@ p {
 }
 
 @media screen and (max-width: 1500px) {
+    header nav ul li a {
+        font-size: 60%;
+    }
+
     .label-text {
         display:flex;
         flex-direction:row;
@@ -209,27 +226,48 @@ p {
     }
 
     .label-text p {
-        font-size: 15px;
+        font-size: 10px;
+        text-overflow: clip
     }
 
     .contact-me-text ul li {
         font-size: 70%;
     }
 
-    header nav  ul li a{
+    header nav ul li a{
         font-size: 90%;
     }
 }
 @media screen and (max-width: 980px) {
+    header nav ul li a {
+        font-size: 60%;
+    }
+
+    .label-text h4 {
+        font-size: 10px;
+    }
+
+    .label-text p {
+        font-size: 8px;
+        text-overflow: clip;
+    }
+
+    .contact-me-text ul li {
+        font-size: 50%;
+    }
+}
+
+@media screen and (max-width: 575px) {
     .label-text h4 {
         font-size: 10px;
         
     }
     .label-text p {
         font-size: 8px;
+        text-overflow: clip
     }
 
     .contact-me-text ul li {
-        font-size: 50%;
+        font-size: 10%;
     }
 }
