@@ -116,7 +116,7 @@ p {
 
 .large-image {
     height: 500px;
-    width: 91%;
+    width: 92%;
     border: 5px solid var(--secondary-color);
     margin: 5px;
     background-image: url("../images/surf-report.jpg");
@@ -150,7 +150,7 @@ p {
 
 .small-box {
     height: 200px;
-    width: 50%;
+    width: 45%;
     border: 5px solid var(--secondary-color);
     margin: 5px;
     display: flex;
@@ -160,16 +160,25 @@ p {
     background-size: cover;
 }
 
+.small-box div {
+    height: 50%;
+    width: 45%;
+}
+
 .led-wall {
     background-image: url("../images/led-wall.jpg");
 }
 
 .calculator {
-    background-image: url("..images/calculator.jpg");
+    background-image: url("../images/calculator.jpg");
 }
 
 .pastel-puzzle {
-    background-image: url("..images/pastel-puzzle.jpg");
+    background-image: url("../images/pastel-puzzle.jpg");
+}
+
+.run-buddy {
+    background-image: url("../images/run-buddy.jpg");
 }
 
 .contact-me-text ul {
@@ -181,7 +190,6 @@ p {
 
 .contact-me-text ul li {
     padding: 10px 15px;
-    font-weight: lighter;
     font-size: 22px;
     text-decoration: none;
 }
@@ -190,3 +198,4 @@ p {
     text-decoration: none;
     color: var(--secondary-color);
 }
+
