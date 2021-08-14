@@ -108,23 +108,10 @@ p {
     list-style: none;
 }
 
-.contact-me-text ul {
-    list-style: none;
+.flex-row {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
-}
-
-.contact-me-text ul li {
-    padding: 10px 15px;
-    font-weight: lighter;
-    font-size: 22px;
-    text-decoration: none;
-}
-
-.contact-me-text a {
-    text-decoration: none;
-    color: var(--secondary-color);
 }
 
 .large-image {
@@ -159,4 +146,47 @@ p {
 .label-text p {
     font-size: 10px;
     padding-bottom: 10px;
+}
+
+.small-box {
+    height: 200px;
+    width: 50%;
+    border: 5px solid var(--secondary-color);
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    position: relative;
+    background-size: cover;
+}
+
+.led-wall {
+    background-image: url("../images/led-wall.jpg");
+}
+
+.calculator {
+    background-image: url("..images/calculator.jpg");
+}
+
+.pastel-puzzle {
+    background-image: url("..images/pastel-puzzle.jpg");
+}
+
+.contact-me-text ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.contact-me-text ul li {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.contact-me-text a {
+    text-decoration: none;
+    color: var(--secondary-color);
 }
