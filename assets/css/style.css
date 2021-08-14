@@ -105,12 +105,32 @@ p {
     border-left: 3px solid var(--secondary-color);
     padding-left: 50px;
     color: var(--secondary-color);
+    list-style: none;
+}
+
+.contact-me-text ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.contact-me-text ul li {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.contact-me-text a {
+    text-decoration: none;
+    color: var(--secondary-color);
 }
 
 .large-image {
     height: 500px;
     width: 91%;
-    border: 5px solid white;
+    border: 5px solid var(--secondary-color);
     margin: 5px;
     background-image: url("../images/surf-report.jpg");
     background-repeat: no-repeat;
